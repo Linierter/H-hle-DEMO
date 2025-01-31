@@ -1,19 +1,19 @@
 console.log("JavaScript geladen!");
 // Audio
 
-const audio = document.createElement("audio");
-audio.src = "media/cave.ogg";
-audio.controls = true;
-audio.autoplay = true;
-audio.volume = 0.05;
+// const audio = document.createElement("audio");
+// audio.src = "media/cave.ogg";
+// audio.controls = true;
+// audio.autoplay = true;
+// audio.volume = 0.05;
 
-document.addEventListener("click", () => {
-  if (audio.paused) {
-    audio.play().catch((error) => {
-      console.error("Audio konnte nicht abgespielt werden:", error);
-    });
-  }
-});
+// document.addEventListener("click", () => {
+//  if (audio.paused) {
+//    audio.play().catch((error) => {
+//      console.error("Audio konnte nicht abgespielt werden:", error);
+//    });
+//  }
+// });
 
 // Klick-Text, Erste Seite, Überschrift
 
